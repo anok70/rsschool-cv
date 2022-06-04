@@ -28,3 +28,5 @@ def string_to_array(x):
    *  Belarusian State University, Engineer-mathematician (diploma with honors).
    *  Belarusian State Economic University, World economy and international economic relations.
 * Courses: Business course "Enterprise director".
+## English
+A2-B1 (I regularly listen to podcasts and watch videos in English)
