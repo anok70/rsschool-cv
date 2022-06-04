@@ -6,9 +6,8 @@
 * GitHub/discord: anok70
 
 ## About Me
-    My principles: "Continuous improvement" and "Nothing is impossible".    
-    High responsibility, self-demanding,
-    organizational skills, energy and initiative.
+My principles: "Continuous improvement" and "Nothing is impossible".    
+High responsibility, self-demanding,    organizational skills, energy and initiative.
 
 ## Skills
 * Experienced Excel user
