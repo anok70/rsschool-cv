@@ -1,21 +1,131 @@
-body {
-    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-    font-size: 11pt; /* Размер основного шрифта в пунктах  */
-    background-color: #f0f0f0; /* Цвет фона веб-страницы */
-    color: #333; /* Цвет основного текста */ 
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto/Roboto-Regular.ttf");
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  color: #2e4987;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+
 h1 {
-    color: #a52a2a; /* Цвет заголовка */
-    font-size: 24pt; /* Размер шрифта в пунктах */
-    font-family: Georgia, Times, serif; /* Семейство шрифтов */
-    font-weight: normal; /* Нормальное начертание текста  */
+  word-spacing: 15px;
+  letter-spacing: 5px;
+  color: #a52a2a; /* Цвет заголовка */
+  font-weight: bold;
+  font-size: 26px; /* Размер шрифта в пунктах */
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
 }
-p {
-    text-align: justify; /* Выравнивание по ширине */
-    margin-left: 60px; /* Отступ слева в пикселах */
-    margin-right: 10px; /* Отступ справа в пикселах */
-    border-left: 1px solid #999; /* Параметры линии слева */
-    border-bottom: 1px solid #999; /* Параметры линии снизу */
-    padding-left: 10px; /* Отступ от линии слева до текста  */
-    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+
+h2 {
+  font-size: 19px;
+  letter-spacing: 3px;
+  word-spacing: 8px;
 }
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+  
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 30px;
+  line-height: 20px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.avatar{
+  width: 160px; 
+  border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #3CB371;
+  
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* background: #3CB371;
+  color: #f2f2f2; */
+}
+
+.spacing {
+  word-spacing: 50px;
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  background: #3CB371;
+  color: #f2f2f2;
+}
+
+.footer-left { 
+  margin-left: 100px;
+}
+
+.gh-link {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.rss {
+  margin-right: 100px;
+  width: 100px;
+  height: 50px;
+  background-image: url("./assets/svg/rss.svg)";
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
