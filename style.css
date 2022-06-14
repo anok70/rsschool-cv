@@ -60,6 +60,7 @@ h2 {
 .nav-item {
   display: flex;
   justify-content: flex-end;
+  
 }
 
 .nav-link {
@@ -69,7 +70,12 @@ h2 {
   color: #f2f2f2;
 }
 
-.avatar{
+.nav-link:hover { 
+  text-decoration: underline;
+  background-color: #2e4987;
+}
+
+.avatar {
   width: 160px; 
   border-radius: 8px;
 }
@@ -88,11 +94,30 @@ h2 {
 .main-container {
   max-width: 1440px;
   margin: 0 auto;
+  /* margin-left: 300px; */
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
   /* background: #3CB371;
   color: #f2f2f2; */
+}
+
+.main-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-block-foto {
+  margin-left: 250px;
+}
+
+.main-name-proff {
+  margin-right: 250px;
+  line-height: 40px;
+  text-align: center;
+
 }
 
 .spacing {
@@ -120,6 +145,19 @@ h2 {
   color: #f2f2f2;
 }
 
+.gh-link:hover {
+  text-decoration: underline;
+  background-color: #2e4987;
+}
+
+/* .part1 {
+  margin-left: 300px;
+}
+  
+.part2 {
+  margin-left: 400px;
+} */
+
 .rss {
   margin-right: 100px;
   width: 100px;
@@ -128,4 +166,6 @@ h2 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
 
