@@ -71,7 +71,7 @@ h2 {
 }
 
 .nav-link:hover { 
-  text-decoration: underline;
+  /* text-decoration: underline; */
   background-color: #2e4987;
 }
 
@@ -111,6 +111,7 @@ h2 {
 
 .main-block-foto {
   margin-left: 250px;
+  padding-top: 10px;
 }
 
 .main-name-proff {
@@ -146,17 +147,33 @@ h2 {
 }
 
 .gh-link:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   background-color: #2e4987;
 }
 
-/* .part1 {
-  margin-left: 300px;
+.main-info {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
 }
   
-.part2 {
-  margin-left: 400px;
-} */
+.section {
+  /* width: 50%; */
+  line-height: 1.8;
+
+}
+
+.main-info-right,
+.main-info-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 550px;
+
+}
 
 .rss {
   margin-right: 100px;
