@@ -166,6 +166,11 @@ h2 {
 
 }
 
+.line {
+  size: 7px;
+  color: #3CB371;
+}
+
 .main-info-right,
 .main-info-left {
   display: flex;
