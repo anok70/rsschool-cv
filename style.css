@@ -21,11 +21,11 @@ body {
   color: #2e4987;
 }
 
-.container {
+/* .container {
   max-width: 1440px;
   margin: 0 auto;
   
-}
+} */
 
 h1 {
   word-spacing: 15px;
@@ -180,7 +180,7 @@ h2 {
   margin-right: 100px;
   width: 100px;
   height: 50px;
-  background-image: url("./assets/svg/rss.svg)";
+  /* background-image: url("./assets/svg/rss.svg"); */
   background-size: contain;
   background-repeat: no-repeat;
 }
