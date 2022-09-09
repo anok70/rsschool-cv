@@ -153,6 +153,10 @@ h2 {
   background-color: #2e4987;
 } */
 
+.gh {
+  width: 35%;
+}
+
 .main-info {
   display: flex;
   /* flex-wrap: wrap; */
@@ -168,8 +172,9 @@ h2 {
 }
 
 .line {
-  size: 7px;
-  color: #3CB371;
+  border: none;
+  height: 7px;
+  background-color: #3CB371;
 }
 
 .main-info-right,
@@ -191,8 +196,6 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.gh {
-  width: 35%;
-}
+
 
 
